@@ -1,6 +1,9 @@
-export const MovieCard = ({ title, image, rating, trailerUrl }) => {
+export const MovieCard = ({ title, image, rating, trailerUrl, onWatch }) => {
   const handleClick = () => {
-    if (trailerUrl) window.open(trailerUrl, '_blank', 'noopener,noreferrer');
+    // Panggil fungsi modal dari App.jsx
+    if (onWatch) {
+      onWatch(trailerUrl);
+    }
   };
 
   return (
