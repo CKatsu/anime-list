@@ -5,6 +5,13 @@ export const MOVIES_DATA = [
     image: 'https://cdn.myanimelist.net/images/anime/1908/135431.jpg', 
     rating: 9.0, 
     trailerUrl: 'https://www.youtube.com/embed/e8YBesRKq_U',
+    status: 'Ongoing',
+    studio: 'Pierrot Films',
+    season: 'Summer 2026',
+    type: 'TV',
+    director: 'Tomohisa Taguchi',
+    genres: ['Action', 'Adventure', 'Supernatural'],
+    synopsis: 'Watch full episodes Bleach: Sennen Kessen-hen english subbed on Aniverse.',
   },
   { 
     id: 2,
