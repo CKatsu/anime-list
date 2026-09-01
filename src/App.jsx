@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MOVIES_DATA } from './movies';
+import { movies } from './data/movies';
 import { Navbar } from './navbar'; // sesuaikan path file kamu
 import { MovieCard } from './MovieCard';
 
